@@ -1,0 +1,8 @@
+#ignore the .pyc file
+*.pyc
+#ignore the data file with csv extension
+*.csv
+#data folders
+datasets/
+#big model file
+*.pkl
