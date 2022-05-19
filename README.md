@@ -19,6 +19,10 @@ mlflow ui
 ```
 mlflow server --backend-store-uri mlruns/ --default-artifact-root mlruns/ --host 0.0.0.0 --port 5000
 ```
-
+7. Design of the Nested Run:
+    ### Parent
+        1. Data Processing (Loading, Cleaning, Scaling)
+        2. Feature Engineering
+        3. Data Modelling
 <b>NOTE:<b>
 <i> Data and Model (.pkl) files are not being uploaded due to the size issue.
