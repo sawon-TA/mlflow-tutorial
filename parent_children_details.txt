@@ -1,0 +1,9 @@
+parent run_id: 6e790e561ef64d90abcb450bf1a2770b
+child run_id : 2bfd0bfa267c47339788b8084bc5817f
+child run_id : c4694bb145b941d382656883c641a60e
+child run_id : 3878cd8fd14b4a8fbfa2293b48e9d662
+--
+                             run_id experiment_id    status  ...             tags.mlflow.source.git.commit tags.mlflow.source.type tags.mlflow.runName
+0  3878cd8fd14b4a8fbfa2293b48e9d662             0  FINISHED  ...  a1120536c2d07d0d3c1165ba38a3b25c33d8cccf                   LOCAL          CHILD_RUN3
+1  c4694bb145b941d382656883c641a60e             0  FINISHED  ...  a1120536c2d07d0d3c1165ba38a3b25c33d8cccf                   LOCAL          CHILD_RUN2
+2  2bfd0bfa267c47339788b8084bc5817f             0  FINISHED  ...  a1120536c2d07d0d3c1165ba38a3b25c33d8cccf                   LOCAL          CHILD_RUN1
